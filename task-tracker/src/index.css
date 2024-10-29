@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .page-container {
+    @apply min-h-screen pb-20 bg-[#242424] flex flex-col justify-start items-center text-center text-white text-6xl;
+  }
+  button {
+    @apply mx-1 my-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-full;
+  }
+  input {
+    @apply text-black;
+  }
+  .Toolbar {
+    @apply bg-purple-500;
+  }
+  .link-homepage {
+    @apply py-2 hover:bg-emerald-500 min-w-full text-center;
+  }
+  span {
+    @apply font-bold ml-2;
+  }
+}
